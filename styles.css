@@ -1,39 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-			body{
-				background-color: #FFFAFA;
-				color: #800000;
-				font-family: "Shantell Sans", cursive;
-			}
-			a{
-				color: #C71585;
-				text-decoration: none;
-			}
-			a:hover{
-				color: #e91c9e;
-				text-decoration: underline;
-			}
-			a img{
-				float: left;
-				margin-right:15px;
-				width: 250px;
-			}
-			iframe{
-				width: 800px;
-				height: 270px;
-			}
-			#инф{
-				width: 50%;
-				height: 100%;
-			}
-			#sp{background-color: #FFF0F5;}
-			.q:hover{
-				text-decoration: underline;
-				text-decoration-color: #80000031;
-			}
-			ol label, li {color: #660080;}
+	body{
+		background-color: #FFFAFA;
+		color: #800000;
+		font-family: "Shantell Sans", cursive;
+	}
+	a{
+		color: #C71585;
+		text-decoration: none;
+	}
+	a:hover{
+		color: #e91c9e;
+		text-decoration: underline;
+	}
+	a img{
+		float: left;
+		margin-right:15px;
+		width: 250px;
+	}
+	iframe{
+		width: 800px;
+		height: 270px;
+	}
+	.q:hover{
+		text-decoration: underline;
+		text-decoration-color: #80000031;
+	}
 
-			input, textarea,button,select { 
-				color: #660080;
-				font-family: "Shantell Sans", cursive;
-			}
-			input:focus, textarea:focus{  color: #cc00ff;}
+	ol label, li {color: #660080;}
+
+	#catForm, #catForm input, #catForm textarea, #catForm button, #catForm select { 
+		color: #660080;
+		font-family: "Shantell Sans", cursive;
+	}
+
+	#catForm input:focus, #catForm textarea:focus{  color: #cc00ff;}
+
+	#t1{
+		font-size: 17px;
+		width: 75%;
+		text-align: center;
+	}
+	div span{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	summary{
+		font-size: 50px;
+		font-weight: bold;
+	}
+	details div{
+		text-align: center;
+		background: #FFF0F5;
+	}
